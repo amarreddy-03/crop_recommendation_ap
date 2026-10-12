@@ -1,0 +1,35 @@
+/* Main website background */
+.stApp {
+    background-color: #0b190c;
+}
+
+/* Main heading */
+h1 {
+    color: #1B5E20;
+    text-align: center;
+}
+
+/* Subheadings */
+h2, h3 {
+    color: #2E7D32;
+}
+
+/* Sidebar background */
+[data-testid="stSidebar"] {
+    background-color: #040a0d;
+}
+
+/* Buttons */
+.stButton button {
+    background-color: #2E7D32;
+    color: rgb(27, 4, 4);
+    border-radius: 10px;
+    border: none;
+    width: 100%;
+}
+
+/* Button hover effect */
+.stButton button:hover {
+    background-color: #1B5E20;
+    color: rgb(12, 2, 2);
+}
